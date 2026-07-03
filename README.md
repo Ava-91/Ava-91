@@ -14,3 +14,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+![Next JS](https://img.shields.io/badge/Next.js-black?logo=next.js)
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38bdf8?logo=tailwind-css&logoColor=white)
+
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visual-studio-code)
+
+![Currently Losing To CSS](https://img.shields.io/badge/currently-losing%20to%20css-pink)
+
+![Sleep Schedule Destroyed](https://img.shields.io/badge/sleep_schedule-destroyed-red)
