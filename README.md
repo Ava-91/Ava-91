@@ -23,3 +23,4 @@ Here are some ideas to get you started:
 ![Currently Losing To CSS](https://img.shields.io/badge/currently-losing%20to%20css-pink)
 
 ![Sleep Schedule Destroyed](https://img.shields.io/badge/sleep_schedule-destroyed-red)
+![Ava's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ava-91&show_icons=true&theme=tokyonight)
