@@ -24,3 +24,4 @@ Here are some ideas to get you started:
 
 ![Sleep Schedule Destroyed](https://img.shields.io/badge/sleep_schedule-destroyed-red)
 ![Ava's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ava-91&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ava-91&layout=compact&theme=tokyonight)
