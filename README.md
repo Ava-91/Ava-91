@@ -1,6 +1,8 @@
 # hi, i'm ava 🎀
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=fFra+Code&size=26&pause=1500&center=true&vCenter=true&width=435&lines=full-stack+developer+%F0%9F%8E%80;emotionally+unstable%E2%9C%A8;overthinker+about+UI%F0%9F%92%96;backend+survivor)](https://git.io/typing-svg)
+
+
 teen girl making cool internet things at 1am 💀
 
 frontend developer powered by music, caffeine and emotional attachment to UI designs
