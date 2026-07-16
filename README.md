@@ -38,7 +38,7 @@ frontend lover • backend survivor • powered by music, caffeine and unreasona
 
 <p align="center">
 
-<img src="./assets/room.jpg" width="300" alt="Cozy coding room">
+<img src="./assets/mine.jpg" width="300" alt="Cozy coding room">
 
 </p>
 
@@ -54,7 +54,7 @@ late-night playlists • blue lights • too many open VS Code tabs • pretendi
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,python,php,wordpress,git,github,vscode&perline=6"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,python,php,wordpress,git,github,vscode&perline=8"/>
 
 </p>
 
