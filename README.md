@@ -1,28 +1,28 @@
 <!-- ======================= BANNER ======================= -->
 
 <p align="center">
-  <img src="assests/banner.gif" width="100%">
+  <img src="./assets/banner2.gif" width="100%" alt="Banner">
 </p>
 
-# hi, i'm ava 🎀
+<h1 align="center">hi, i'm ava 🎀</h1>
 
 <p align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1500&center=true&vCenter=true&width=650&lines=full-stack+developer+🎀;emotionally+unstable✨;overthinker+about+UI💖;backend+survivor;making+cool+internet+things+at+1am💀)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1500&center=true&vCenter=true&width=650&lines=full-stack+developer+🎀;overthinker+about+UI💖;backend+survivor;making+cool+internet+things+at+1am💀)](https://git.io/typing-svg)
 
 </p>
 
 <p align="center">
 
-teen girl making cool internet things at 1am 💀
+teen girl building cozy internet things one commit at a time ✨
 
-building cozy interfaces • surviving backend bugs • collecting npm errors like Pokémon 🎀
+frontend lover • backend survivor • powered by music, caffeine and unreasonable emotional attachment to UI
 
 </p>
 
----
+<br>
 
-# 📊 github chaos
+# 📊 GitHub Activity
 
 <p align="center">
 
@@ -32,169 +32,183 @@ building cozy interfaces • surviving backend bugs • collecting npm errors li
 
 </p>
 
----
+<br>
 
-# 🌌 aesthetic corner
-
-<p align="center">
-
-<img src="assests/room.jpg" width="260">
-
-</p>
-
----
-
-# 💻 tech stack
+# 🌌 My Coding Universe
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,python,php,vscode,git,github"/>
+<img src="./assets/room.jpg" width="300" alt="Cozy coding room">
 
 </p>
 
----
+<p align="center">
 
-# ✨ about me
+late-night playlists • blue lights • too many open VS Code tabs • pretending npm errors aren't personal
 
-```js
+</p>
+
+<br>
+
+# 💻 Toolbox
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,python,php,wordpress,git,github,vscode&perline=6"/>
+
+</p>
+
+<br>
+
+# ✨ About Me
+
+```javascript
 const ava = {
+  nickname: "Ava",
 
-    age: 13,
+  role: "Full-Stack Developer",
 
-    location: "Earth (probably)",
+  currentlyLearning: [
+    "Next.js",
+    "Tailwind CSS",
+    "Git",
+    "Python"
+  ],
 
-    role: "Full-stack developer",
+  enjoys: [
+    "Beautiful UI",
+    "Frontend",
+    "Music",
+    "Dark themes",
+    "Making websites feel alive",
+    "Pixel aesthetics"
+  ],
 
-    currentlyLearning: [
-        "Next.js",
-        "Tailwind CSS",
-        "Git",
-        "Python"
-    ],
+  currentlyBuilding: [
+    "🎵 MusicPlayer",
+    "Random web experiments",
+    "My GitHub profile",
+    "Future open-source projects"
+  ],
 
-    loves: [
-        "Aesthetic UI",
-        "Frontend",
-        "Music",
-        "Dark themes",
-        "Pixel art"
-    ],
-
-    fears: [
-        "CSS randomly breaking",
-        "npm",
-        "merge conflicts",
-        "centering divs"
-    ],
-
-    currentlyDoing:
-        "Turning emotionally unstable thoughts into responsive layouts 🎀"
+  funFact() {
+    return "Started coding in Windows Notepad before discovering VS Code 💀";
+  }
 }
 ```
 
----
+<br>
 
-# 🎀 currently obsessed with
+# 🚀 Featured Project
 
-![](https://img.shields.io/badge/Next.js-black?logo=next.js)
+### 🎵 MusicPlayer
 
-![](https://img.shields.io/badge/Tailwind-0ea5e9?logo=tailwindcss)
+A cinematic music player built with **Next.js**.
 
-![](https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode)
+The goal isn't just playing music—
 
-![](https://img.shields.io/badge/frontend-my_safe_place-blue)
+it's making music feel like entering a movie.
 
-![](https://img.shields.io/badge/backend-surviving-darkblue)
+> currently under construction... and probably breaking something every day.
 
-![](https://img.shields.io/badge/currently-fighting_css-black)
+<br>
 
-![](https://img.shields.io/badge/sleep_schedule-destroyed-111827)
+# 🎀 Currently Exploring
 
----
+<p>
 
-# 💀 coding wisdom
+🩵 Next.js
 
-> coding is basically drawing.
+🌊 Tailwind CSS
 
-> except the line isn't straight.
+🐙 Git & GitHub
 
-> so i spend another hour decorating the mistake with flowers, animations and fancy UI until nobody notices.
+⚡ Better React patterns
 
----
+🎨 UI animations
 
-> if the frontend looks pretty enough maybe nobody notices the backend crying 💀
+🌙 Desktop-inspired interfaces
 
----
+</p>
 
-> turning emotional instability into responsive design since 2026
+<br>
 
----
+# 💀 Coding Wisdom
 
-# 🚀 currently building
+> Coding is basically drawing...
+>
+> except the line is never straight,
+>
+> so I spend another hour decorating the mistake with animations, gradients and fancy UI until nobody notices.
 
-🎵 MusicPlayer
+<br>
 
-A cinematic music player made with Next.js.
+> If the frontend looks beautiful enough,
+>
+> maybe nobody notices the backend crying.
 
-Trying to make listening to music feel like entering a movie.
+<br>
 
----
+> Every bug eventually becomes
+>
+> "wait... why did THAT fix it?"
 
-🌐 Learning GitHub properly
+<br>
 
-Trying not to accidentally destroy repositories.
+# 🌙 Dream Projects
 
----
+✨ Futuristic websites
 
-🎀 More aesthetic websites.
+🎵 Beautiful music players
 
-Because plain websites hurt my soul.
+🎮 Emotional pixel games where literally everything is alive
 
----
+💻 Cozy desktop applications
 
-# 🌙 dream projects
+📱 Social platforms
 
-✨ futuristic websites
+🌌 Hacker-girl inspired interfaces
 
-🎧 music interfaces
+🩵 Weird little internet experiments
 
-🌌 hacker girl dashboards
+<br>
 
-🎮 emotional pixel games
-
-📱 social apps
-
-🩵 internet experiments
-
----
-
-# 🎵 coding soundtrack
-
-Billie Eilish
-
-Olivia Rodrigo
-
-FINNEAS
-
-The Neighbourhood
-
-Sombr
+# 🎧 Currently Playing
 
 ```txt
-currently coding in:
+🎵 Billie Eilish
+🎵 Olivia Rodrigo
+🎵 FINNEAS
+🎵 The Neighbourhood
+🎵 Sombr
 
-dark mode
+──────────────
 
-questionable life decisions
+coding environment
 
-late-night motivation
+✓ dark mode
 
-✨
+✓ late-night motivation
+
+✓ at least one npm error
+
+✓ somehow still having fun
 ```
 
----
+<br>
 
-# 🐍 contribution snake
+# 🌱 2026 Goals
+
+- Build more polished full-stack projects
+- Contribute to open source
+- Learn Electron
+- Create beautiful desktop apps
+- Stop being scared of backend
+- Collect GitHub achievements 🏆
+
+<br>
+
+# 🐍 Contribution Snake
 
 <p align="center">
 
@@ -202,10 +216,26 @@ late-night motivation
 
 </p>
 
+<br>
+
+# 💌 Let's Connect
+
+<p align="center">
+
+If you also enjoy building aesthetic websites, cozy interfaces or random internet experiments...
+
+you're awesome already ✨
+
+</p>
+
 ---
 
 <p align="center">
 
-made with 💙, music and an unreasonable emotional attachment to UI
+made with 💙
+
+billie playing in the background
+
+and at least one npm error.
 
 </p>
