@@ -38,7 +38,7 @@ frontend lover • backend survivor • powered by music, caffeine and unreasona
 
 <p align="center">
 
-<img src="./assets/mine.jpg" width="300" alt="Cozy coding room">
+<img src="./assets/room..jpg" width="300" alt="Cozy coding room">
 
 </p>
 
