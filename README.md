@@ -1,7 +1,7 @@
 <!-- ======================= BANNER ======================= -->
 
 <p align="center">
-  <img src="PUT_YOUR_BANNER_URL_HERE" width="100%">
+  <img src="assests/banner.gif" width="100%">
 </p>
 
 # hi, i'm ava 🎀
@@ -38,7 +38,7 @@ building cozy interfaces • surviving backend bugs • collecting npm errors li
 
 <p align="center">
 
-<img src="PUT_YOUR_CHARACTER_IMAGE_URL_HERE" width="260">
+<img src="assests/room.jpg" width="260">
 
 </p>
 
