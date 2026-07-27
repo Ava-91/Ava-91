@@ -107,7 +107,7 @@ const ava = {
 - 🎵 Beautiful music players
 - 🎮 Emotional pixel games
 - 💻 Cozy desktop applications
-- 🌌 Hacker-girl inspired interfaces
+- 🌌 Desktop-inspired interfaces
 - 🩵 Weird little internet experiments
 
 ---
@@ -165,7 +165,6 @@ coding environment
 
 <p align="center">
   made with 💙<br>
-  billie playing in the background<br>
   and at least one npm error
 </p>
 
