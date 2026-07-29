@@ -14,7 +14,7 @@
 
 <p align="center">
   building cozy little corners of the internet, one commit at a time ✨<br>
-  frontend lover • powered by music, caffeine, and unreasonable emotional attachment to UI
+  frontend lover • powered by music and unreasonable emotional attachment to UI
 </p>
 
 ---
@@ -110,17 +110,8 @@ const ava = {
 - 🌌 Desktop-inspired interfaces
 - 🩵 Weird little internet experiments
 
----
-
-## 📊 GitHub Activity
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Ava-91&show_icons=true&theme=tokyonight&count_private=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ava-91&layout=compact&theme=tokyonight"/>
-</p>
 
 ---
-
 
 ## 🎧 Currently Playing
 
@@ -154,20 +145,7 @@ coding environment
 
 ---
 
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Ava-91/Ava-91/output/snake.svg"/>
-</p>
-
-
----
-
 <p align="center">
   made with 💙<br>
   and at least one npm error
 </p>
-
----
-
-The personality is still 100% you — just a little more focused. Now it reads like a portfolio instead of a diary entry (in the best way possible).
