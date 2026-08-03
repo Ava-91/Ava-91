@@ -76,7 +76,16 @@ const ava = {
 - Stop starting new projects before finishing old ones (jk, this is impossible)
 
 ---
+## 🐍 The little coding snake
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Ava-91/Ava-91/output/github-contribution-grid-snake-dark.svg" />
+
+</div>
+
+> It eats my commits so I can pretend the green squares are a game 🎮
+---
 ## 💀 Things I keep saying I'll learn
 
 - Docker
