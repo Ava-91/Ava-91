@@ -80,7 +80,7 @@ const ava = {
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Ava-91/Ava-91/output/github-contribution-grid-snake-dark.svg" />
+<img src="https://raw.githubusercontent.com/Ava-91/Ava-91/gh-pages/github-contribution-grid-snake.svg" />
 
 </div>
 
