@@ -5,40 +5,40 @@
 <h1 align="center">🌸 Hi, I'm Ava</h1>
 
 <p align="center">
-  <strong>Frontend-first developer • Builder • UI enthusiast</strong>
+  <strong>Frontend-first developer · Builder · UI enthusiast</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/Ava-91"><img src="https://img.shields.io/github/followers/Ava-91?style=flat&label=followers" alt="GitHub followers" /></a>
   <a href="https://github.com/Ava-91?tab=repositories"><img src="https://img.shields.io/badge/focus-building%20things-ff69b4?style=flat" alt="Focus: building things" /></a>
-  <a href="https://github.com/Ava-91/reposhot"><img src="https://img.shields.io/badge/current%20obsession-RepoShot-8b5cf6?style=flat" alt="Current obsession: RepoShot" /></a>
+  <a href="https://github.com/Ava-91/reposhot"><img src="https://img.shields.io/badge/current%20project-RepoShot-8b5cf6?style=flat" alt="Current project: RepoShot" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ava-91/MusicPlayer">MusicPlayer</a> ·
-  <a href="https://github.com/Ava-91/reposhot">RepoShot</a> ·
-  <a href="https://github.com/Ava-91/ava-night">ava-night</a> ·
-  <a href="https://github.com/Ava-91/cozyfolio">cozyfolio</a>
+  <a href="https://github.com/Ava-91/reposhot">📸 RepoShot</a> ·
+  <a href="https://github.com/Ava-91/MusicPlayer">🎵 MusicPlayer</a> ·
+  <a href="https://github.com/Ava-91/ava-night">🌙 ava-night</a> ·
+  <a href="https://github.com/Ava-91/cozyfolio">🧸 cozyfolio</a>
 </p>
 
 ---
 
 ## 👋 A little about me
 
-I'm Ava — a developer who likes turning ideas into things that are **actually usable, visually polished, and fun to interact with**.
+I'm Ava — a frontend-first developer who likes turning ideas into software that is **useful, polished, and fun to interact with**.
 
-I started with the basics, kept breaking things, kept fixing them, and eventually ended up caring way too much about tiny UI details. These days I'm mostly working with the modern JavaScript/TypeScript ecosystem and exploring what happens when good engineering meets good design.
+I learn by building: make something, break it, debug it, improve it, then ship it. I'm especially interested in the space where **good engineering meets good UI**.
 
 ```ts
 const ava = {
   role: "frontend-first developer",
   mindset: "build → break → debug → improve",
-  loves: [
-    "clean interfaces",
-    "dark themes",
-    "smooth interactions",
-    "side projects",
-    "learning by building",
+  interests: [
+    "TypeScript",
+    "React / Next.js",
+    "UI engineering",
+    "developer tools",
+    "open source",
   ],
   currentMission: "turning ideas into polished software",
 };
@@ -46,95 +46,99 @@ const ava = {
 
 ---
 
-## 🚀 What I'm building
+## 🚧 Currently building
 
 ### 📸 RepoShot
 
-**Generate polished screenshots of GitHub repositories.**
+A tool for generating beautiful, customizable PNG cards for GitHub repositories.
 
-RepoShot has become one of my main playgrounds for learning how a real project evolves: architecture, URL state, presets, templates, accessibility, testing, CI, UX polish, and release preparation.
+**Next.js · React · TypeScript · Tailwind CSS**
 
-→ **[Ava-91/reposhot](https://github.com/Ava-91/reposhot)**
+**[Live demo](https://reposhot.vercel.app/) · [Source](https://github.com/Ava-91/reposhot)**
 
-### 🎵 MusicPlayer
+### 🧪 Right now I'm also
 
-A personal music player focused on making playback feel like an experience rather than just another audio player.
-
-**Next.js · React · Tailwind CSS · TypeScript**
-
-→ **[Ava-91/MusicPlayer](https://github.com/Ava-91/MusicPlayer)**
-
-### 🌙 ava-night
-
-A dark Visual Studio Code theme built around comfortable contrast, readability, and long coding sessions.
-
-→ **[Ava-91/ava-night](https://github.com/Ava-91/ava-night)**
-
-### 🗃️ archive-zero
-
-A home for experiments, prototypes, UI ideas, and projects that don't quite fit anywhere else.
-
-→ **[Ava-91/archive-zero](https://github.com/Ava-91/archive-zero)**
-
-### 🧸 cozyfolio
-
-My personal portfolio project — a place to experiment with presentation, animation, and showing off the things I build.
-
-→ **[Ava-91/cozyfolio](https://github.com/Ava-91/cozyfolio)**
+- 🧩 Improving component architecture and TypeScript patterns
+- 🧪 Learning better testing and CI workflows
+- ♿ Paying more attention to accessibility and responsive UI
+- 🖥️ Exploring desktop development with Electron
+- 🐍 Building Python projects and automation
 
 ---
 
-## 🛠️ My toolbox
+## ⭐ Featured projects
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>📸 RepoShot</h3>
+      <p>Generate polished, customizable PNG cards for GitHub repositories with themes and layouts.</p>
+      <a href="https://reposhot.vercel.app/">Live demo</a> · <a href="https://github.com/Ava-91/reposhot">Source</a>
+    </td>
+    <td width="50%">
+      <h3>🎵 MusicPlayer</h3>
+      <p>A personal music player focused on making playback feel like an experience.</p>
+      <a href="https://github.com/Ava-91/MusicPlayer">Source</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🌙 ava-night</h3>
+      <p>A dark VS Code theme designed around comfortable contrast and long coding sessions.</p>
+      <a href="https://github.com/Ava-91/ava-night">Source</a>
+    </td>
+    <td width="50%">
+      <h3>🧸 cozyfolio</h3>
+      <p>My personal portfolio and a playground for presentation, animation, and web UI.</p>
+      <a href="https://cozyfolio.vercel.app">Live site</a> · <a href="https://github.com/Ava-91/cozyfolio">Source</a>
+    </td>
+  </tr>
+</table>
+
+> **Why these projects?** They represent the direction I want to keep moving toward: building complete things, caring about the interface, and learning the engineering behind the polish.
+
+---
+
+## 🛠️ Toolbox
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,python,php,wordpress,git,github,vscode&perline=7" alt="Technologies: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Python, PHP, WordPress, Git, GitHub, VS Code" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,python,php,wordpress,git,github,vscode&perline=7" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Python, PHP, WordPress, Git, GitHub, VS Code" />
 </p>
 
-### Right now I'm especially interested in
-
-- ⚛️ React and Next.js
-- 🟦 TypeScript
-- 🎨 UI engineering and interaction design
-- 🧩 Component architecture
-- 🧪 Testing and CI
-- 🐙 Git, GitHub, issues, PRs, and release workflows
-- 🖥️ Desktop development and Electron
-- 🐍 Python projects and automation
+**Core interests:** TypeScript · React · Next.js · UI engineering · component architecture · testing · CI/CD · GitHub workflows
 
 ---
 
-## 📈 Building in public
+## 📊 GitHub activity
 
-I like treating GitHub as more than a place to dump finished code.
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ava-91&show_icons=true&hide_border=true&rank_icon=github" alt="Ava's GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ava-91&layout=compact&hide_border=true&langs_count=8" alt="Ava's most used languages" />
+</p>
 
-Issues become plans. PRs become experiments. CI failures become debugging sessions. Commits become a timeline of how the project got better.
-
-And yes, sometimes that means a project goes from **10 commits to 50+ commits in a day** because apparently I have no concept of stopping. 👁️👄👁️
-
-<div align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/Ava-91/Ava-91/gh-pages/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
-</div>
+</p>
 
 ---
 
-## 🌱 What I'm learning
+## 🌍 Building in public
 
-I'm currently pushing beyond just making things work and focusing on making them **maintainable and release-ready**.
+I treat GitHub as more than a place to upload finished code.
 
-- Better TypeScript patterns
-- Testing real application behavior
-- Accessibility and responsive UI
-- API design and caching
-- GitHub Actions and CI
-- Production-minded Next.js development
-- Desktop application development
-- Open-source collaboration
+**Issues → plans · PRs → experiments · CI failures → debugging · commits → progress**
 
-> The goal isn't to know everything. It's to keep building things that force me to learn something new.
+I want my repositories to show the process as well as the final result: what broke, what changed, what I learned, and how the project became better.
+
+### Open source
+
+I'm learning to build in public, collaborate through issues and pull requests, and make projects that other people can actually explore and use.
+
+→ **[Browse all repositories](https://github.com/Ava-91?tab=repositories)** · **[View contributions](https://github.com/Ava-91?tab=overview)**
 
 ---
 
-## 🎯 The kind of software I want to make
+## 🎯 My software philosophy
 
 I gravitate toward projects that are:
 
@@ -144,24 +148,27 @@ I gravitate toward projects that are:
 - ⚡ fast and responsive
 - ♿ accessible
 - 🧪 tested instead of held together by hope
-- 🛠️ built well enough that future-me won't hate past-me
+- 🛠️ maintainable enough that future-me won't hate past-me
+
+> **Good UI is part of good engineering.** A feature isn't finished just because it technically works.
 
 ---
 
-## 🎧 Coding atmosphere
+## 💻 AVA'S DEV ENVIRONMENT
 
 ```text
-┌─────────────────────────────────────┐
-│          AVA'S DEV ENVIRONMENT      │
-├─────────────────────────────────────┤
-│ theme       → dark                  │
-│ editor      → VS Code               │
-│ tabs        → somehow still too many│
-│ music       → very loud              │
-│ ui detail   → "just one more tweak" │
-│ git status  → please don't ask       │
-│ npm errors  → character development │
-└─────────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│              AVA / STATUS               │
+├─────────────────────────────────────────┤
+│ role        → frontend-first developer  │
+│ editor      → VS Code                    │
+│ theme       → dark                       │
+│ stack       → TypeScript / React / Next │
+│ tabs        → somehow still too many     │
+│ music       → very loud                  │
+│ ui detail   → "one more tweak"          │
+│ git status  → we're working on it       │
+└─────────────────────────────────────────┘
 ```
 
 ---
@@ -172,13 +179,13 @@ I gravitate toward projects that are:
 >
 > You learn differently when the project is yours.
 
-> **Good UI is part of good engineering.**
+> **Ship, then improve.**
 >
-> A feature isn't finished just because it technically works.
+> A real imperfect project teaches more than a perfect idea that never leaves your notes.
 
-> **Messy commits are still evidence of growth.**
+> **The details matter.**
 >
-> The important part is learning how to make the next version better.
+> Small UX decisions are still engineering decisions.
 
 ---
 
@@ -186,12 +193,11 @@ I gravitate toward projects that are:
 
 <p align="center">
   <a href="https://github.com/Ava-91?tab=repositories">All repositories</a> ·
-  <a href="https://github.com/Ava-91/reposhot">RepoShot</a> ·
+  <a href="https://reposhot.vercel.app/">RepoShot demo</a> ·
+  <a href="https://cozyfolio.vercel.app">Portfolio</a> ·
   <a href="https://github.com/Ava-91/MusicPlayer">MusicPlayer</a> ·
   <a href="https://github.com/Ava-91/ava-night">ava-night</a>
 </p>
-
----
 
 <p align="center">
   <sub>Built with curiosity, too many tabs, and an unreasonable amount of attention to tiny details.</sub>
