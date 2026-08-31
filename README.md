@@ -152,37 +152,49 @@ They all count as part of the process.
 
 ---
 
-## 📈 GitHub activity
+## 📊 GitHub activity
 
-No external stats widgets. Just the real stuff.
+> I apparently had a productive August.
 
-| Project | August commits |
-| --- | ---: |
-| 🎨 [VibeSorter](https://github.com/Ava-91/VibeSorter) | **150** |
-| 📸 [RepoShot](https://github.com/Ava-91/reposhot) | **94** |
-| 🔊 [Ovrino](https://github.com/Ava-91/ovrino) | **82** |
-| 🎵 [music-sync](https://github.com/Ava-91/music-sync) | **69** |
-| 🧸 [Cozyfolio](https://github.com/Ava-91/cozyfolio) | **53** |
-| 🌙 [Luna](https://github.com/Ava-91/luna) | **48** |
-| 🎧 [MusicPlayer](https://github.com/Ava-91/MusicPlayer) | **46** |
-| 🌌 [Ava Night](https://github.com/Ava-91/ava-night) | **17** |
-| 🤖 [devnest-bot](https://github.com/Ava-91/devnest-bot) | 8 |
+**590 commits** · **16 repositories** · **146 issues** · **7 new repositories**
 
-> **590 commits across 16 repositories.**
+### 🔥 Most active projects
+
+- 🎨 **VibeSorter** — 150 commits
+- 📸 **RepoShot** — 94 commits
+- 🔊 **Ovrino** — 82 commits
+- 🎵 **music-sync** — 69 commits
+- 🧸 **Cozyfolio** — 53 commits
+- 🌙 **Luna** — 48 commits
+- 🎧 **MusicPlayer** — 46 commits
+
+### 🧠 What I've actually been doing
+
+Building features.  
+Fixing bugs.  
+Writing tests.  
+Opening issues.  
+Closing issues.  
+Refactoring things I wrote five minutes earlier.
+
+And occasionally creating an entirely new repository instead of finishing the one I was already working on. 💀
+
+> `git status`
 >
-> Apparently I had things to do.
+> `On branch main`
+>
+> `nothing to commit, working tree clean`
+>
+> **...for approximately 14 seconds.**
 
-### 🧪 What that activity actually looked like
+---
 
-- 🐛 Bugs fixed
-- ✨ Features built
-- 🧪 Tests added
-- 📝 Documentation written
-- 🔧 Refactors and cleanup
-- 📋 Issues opened, worked on, and closed
-- 🚀 New projects started
+### 🚀 Explore my work
 
-GitHub's contribution graph tells part of the story. The repositories tell the rest.
+[![VibeSorter](https://img.shields.io/badge/🎨_VibeSorter-Visual_image_organization-111827?style=for-the-badge)](https://github.com/Ava-91/VibeSorter)
+[![RepoShot](https://img.shields.io/badge/📸_RepoShot-GitHub_preview_generator-111827?style=for-the-badge)](https://github.com/Ava-91/reposhot)
+[![Ovrino](https://img.shields.io/badge/🔊_Ovrino-Voice_&_audio-111827?style=for-the-badge)](https://github.com/Ava-91/ovrino)
+[![Music Sync](https://img.shields.io/badge/🎵_music--sync-Music_libraries-111827?style=for-the-badge)](https://github.com/Ava-91/music-sync)
 
 ---
 
