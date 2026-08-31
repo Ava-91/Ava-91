@@ -152,10 +152,37 @@ They all count as part of the process.
 
 ---
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ava-91&show_icons=true&hide_border=true&rank_icon=github" alt="Ava's GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ava-91&layout=compact&hide_border=true&langs_count=8" alt="Ava's most used languages" />
-</p>
+## 📈 GitHub activity
+
+No external stats widgets. Just the real stuff.
+
+| Project | August commits |
+| --- | ---: |
+| 🎨 [VibeSorter](https://github.com/Ava-91/VibeSorter) | **150** |
+| 📸 [RepoShot](https://github.com/Ava-91/reposhot) | **94** |
+| 🔊 [Ovrino](https://github.com/Ava-91/ovrino) | **82** |
+| 🎵 [music-sync](https://github.com/Ava-91/music-sync) | **69** |
+| 🧸 [Cozyfolio](https://github.com/Ava-91/cozyfolio) | **53** |
+| 🌙 [Luna](https://github.com/Ava-91/luna) | **48** |
+| 🎧 [MusicPlayer](https://github.com/Ava-91/MusicPlayer) | **46** |
+| 🌌 [Ava Night](https://github.com/Ava-91/ava-night) | **17** |
+| 🤖 [devnest-bot](https://github.com/Ava-91/devnest-bot) | 8 |
+
+> **590 commits across 16 repositories.**
+>
+> Apparently I had things to do.
+
+### 🧪 What that activity actually looked like
+
+- 🐛 Bugs fixed
+- ✨ Features built
+- 🧪 Tests added
+- 📝 Documentation written
+- 🔧 Refactors and cleanup
+- 📋 Issues opened, worked on, and closed
+- 🚀 New projects started
+
+GitHub's contribution graph tells part of the story. The repositories tell the rest.
 
 ---
 
