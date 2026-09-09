@@ -2,7 +2,7 @@
   <img src="./assets/banner2.gif" width="100%" alt="Ava profile banner" />
 </p>
 
-<h1 align="center">Hey, I'm Ava 👋</h1>
+<h1 align="center">Hey, I'm Ava <h1/>
 
 <p align="center">
   <strong>I build things, break things, fix them, and then add another feature.</strong>
