@@ -30,44 +30,59 @@ I'm especially interested in the space between **good engineering and a good exp
 
 ## 🚀 Selected projects
 
-### 🎨 [VibeSorter](https://github.com/Ava-91/VibeSorter)
-A local-first image organizer that classifies libraries by **visual vibe** using image features such as brightness, saturation, contrast, color balance, and spatial features.
+These are the projects I actually want people to see first — not every experiment I've ever pushed to GitHub.
 
-**Python · Pillow · SQLite · CLI · Image Analysis**
+### 🎨 [VibeSorter](https://github.com/Ava-91/VibeSorter)
+A local-first image organizer that sorts photos by **visual aesthetics, colors, moods, and vibes**, with image analysis and a local database.
+
+**Python · Pillow · SQLite · Image Analysis**
 
 ### 📸 [RepoShot](https://github.com/Ava-91/reposhot)
-A tool for turning GitHub repositories into customizable preview images.
+A tool for generating **customizable GitHub repository preview cards** with multiple themes and layouts.
 
 **Next.js · React · TypeScript · Tailwind CSS**
 
 → [Live demo](https://reposhot.vercel.app/)
 
-### 🔊 [Ovrino](https://github.com/Ava-91/ovrino)
-An experiment in voice and audio application development.
+### 🎙️ [Ovrino](https://github.com/Ava-91/ovrino)
+A voice-focused **text-to-speech mobile app** built with React Native and Expo.
 
-**TypeScript · Audio · Application Development**
+**TypeScript · React Native · Expo · TTS**
 
-### 🎵 [music-sync](https://github.com/Ava-91/music-sync)
-Tools for managing, comparing, and synchronizing music libraries across systems.
+### 🎵 [Luna](https://github.com/Ava-91/luna)
+A desktop music library manager for **cleaning, organizing, and fixing local music collections**.
 
-**Python · Music Libraries · File Operations**
+**Python · Desktop · Music Libraries · File Operations**
 
-### 🌙 [Luna](https://github.com/Ava-91/luna)
-An ongoing experiment in Python tooling and automation.
+### 🌙 [Harmelune](https://github.com/Ava-91/harmelune)
+A metadata-aware music library synchronization tool for Windows with **matching, backups, conflict review, and dry-run support**.
 
-**Python · Tooling · Experimentation**
+**Python · Windows · Metadata · File Synchronization**
+
+### 🌿 [Verdea](https://github.com/Ava-91/verdea)
+A modern responsive plant shop built with **Next.js and TypeScript**, focused on frontend UI and interaction.
+
+**Next.js · TypeScript · React · UI**
+
+### 🌌 [Ava Night](https://github.com/Ava-91/ava-night)
+A dark VS Code theme designed around **readability, balanced contrast, and comfortable long coding sessions**.
+
+**VS Code · Theme Design · JSON**
+
+### 🎧 [MusicPlayer](https://github.com/Ava-91/MusicPlayer)
+A web music player built with **Next.js and Tailwind CSS**.
+
+**Next.js · React · Tailwind CSS**
 
 ### 🧸 [Cozyfolio](https://github.com/Ava-91/cozyfolio)
-My personal portfolio and a playground for animation, interaction, and web design.
+My personal portfolio and a playground for **web design, animation, and interaction**.
 
 → [Visit the site](https://cozyfolio.vercel.app/)
 
-### 🌌 [Ava Night](https://github.com/Ava-91/ava-night)
-A midnight-inspired VS Code theme for long coding sessions.
+### 🧪 [Musivex](https://github.com/Ava-91/Musivex) · archived
+An earlier experiment in **music metadata enrichment and transformation-aware song recognition**.
 
-**VS Code · JSON · Theme Design**
-
-→ [View project](https://github.com/Ava-91/ava-night)
+**Python · Music Metadata · Audio**
 
 ## 🛠️ Stack
 
