@@ -130,6 +130,12 @@ They all count as part of the process.
 
 </details>
 
+## 🐍 Contribution snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ava-91/Ava-91/gh-pages/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
+</p>
+
 ---
 
 ### 🚀 Explore my work
