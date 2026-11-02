@@ -52,3 +52,15 @@ jobs:
       - name: Build
         run: ${{ inputs.build-command }}
         working-directory: ${{ inputs.working-directory }}
+      - name: Generate dependency audit report
+        if: ${{ hashFiles(format('{0}/package-lock.json', inputs.working-directory)) != '' }}
+        run: npm audit --json > npm-audit.json || true
+        working-directory: ${{ inputs.working-directory }}
+      - name: Upload dependency audit report
+        if: always() && hashFiles(format('{0}/package-lock.json', inputs.working-directory)) != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: npm-audit-report
+          path: ${{ inputs.working-directory }}/npm-audit.json
+          if-no-files-found: warn
+          retention-days: 14
