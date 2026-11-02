@@ -36,8 +36,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: ${{ inputs.node-version }}
       - name: Install dependencies
@@ -52,3 +52,15 @@ jobs:
       - name: Build
         run: ${{ inputs.build-command }}
         working-directory: ${{ inputs.working-directory }}
+      - name: Generate dependency audit report
+        if: ${{ hashFiles('**/package-lock.json') != '' }}
+        run: npm audit --json > npm-audit.json || true
+        working-directory: ${{ inputs.working-directory }}
+      - name: Upload dependency audit report
+        if: always() && hashFiles(format('{0}/package-lock.json', inputs.working-directory)) != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: npm-audit-report-${{ inputs.working-directory }}
+          path: ${{ inputs.working-directory }}/npm-audit.json
+          if-no-files-found: warn
+          retention-days: 14
