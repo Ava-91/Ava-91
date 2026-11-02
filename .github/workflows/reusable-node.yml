@@ -11,10 +11,6 @@ on:
         required: false
         type: string
         default: "."
-      working-directory:
-        required: false
-        type: string
-        default: "."
       install-command:
         required: false
         type: string
@@ -47,16 +43,12 @@ jobs:
       - name: Install dependencies
         run: ${{ inputs.install-command }}
         working-directory: ${{ inputs.working-directory }}
-        working-directory: ${{ inputs.working-directory }}
       - name: Lint
         run: ${{ inputs.lint-command }}
-        working-directory: ${{ inputs.working-directory }}
         working-directory: ${{ inputs.working-directory }}
       - name: Test
         run: ${{ inputs.test-command }}
         working-directory: ${{ inputs.working-directory }}
-        working-directory: ${{ inputs.working-directory }}
       - name: Build
         run: ${{ inputs.build-command }}
-        working-directory: ${{ inputs.working-directory }}
         working-directory: ${{ inputs.working-directory }}
