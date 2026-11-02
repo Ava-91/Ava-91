@@ -1,0 +1,24 @@
+name: Reusable documentation links
+
+on:
+  workflow_call:
+    inputs:
+      paths:
+        required: false
+        type: string
+        default: "./README.md ./docs/**/*.md"
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check documentation links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress --accept 200,206,429 \${{ inputs.paths }}
+          fail: true
