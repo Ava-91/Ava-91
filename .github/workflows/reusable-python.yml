@@ -7,6 +7,10 @@ on:
         required: false
         type: string
         default: "3.12"
+      runner:
+        required: false
+        type: string
+        default: "ubuntu-latest"
       install-command:
         required: false
         type: string
@@ -25,7 +29,7 @@ permissions:
 
 jobs:
   quality:
-    runs-on: ubuntu-latest
+    runs-on: ${{ inputs.runner }}
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
