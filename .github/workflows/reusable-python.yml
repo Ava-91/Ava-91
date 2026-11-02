@@ -31,10 +31,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: \${{ inputs.python-version }}
+          python-version: ${{ inputs.python-version }}
       - name: Install dependencies
-        run: \${{ inputs.install-command }}
+        run: ${{ inputs.install-command }}
       - name: Lint
-        run: \${{ inputs.lint-command }}
+        run: ${{ inputs.lint-command }}
       - name: Test
-        run: \${{ inputs.test-command }}
+        run: ${{ inputs.test-command }}
