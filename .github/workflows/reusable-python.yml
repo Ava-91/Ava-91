@@ -1,0 +1,40 @@
+name: Reusable Python quality
+
+on:
+  workflow_call:
+    inputs:
+      python-version:
+        required: false
+        type: string
+        default: "3.12"
+      install-command:
+        required: false
+        type: string
+        default: "python -m pip install -e '.[dev]'"
+      lint-command:
+        required: false
+        type: string
+        default: "ruff check ."
+      test-command:
+        required: false
+        type: string
+        default: "python -m pytest -q"
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: \${{ inputs.python-version }}
+      - name: Install dependencies
+        run: \${{ inputs.install-command }}
+      - name: Lint
+        run: \${{ inputs.lint-command }}
+      - name: Test
+        run: \${{ inputs.test-command }}
