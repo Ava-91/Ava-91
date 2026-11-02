@@ -11,10 +11,6 @@ on:
         required: false
         type: string
         default: "ubuntu-latest"
-      runner:
-        required: false
-        type: string
-        default: "ubuntu-latest"
       install-command:
         required: false
         type: string
