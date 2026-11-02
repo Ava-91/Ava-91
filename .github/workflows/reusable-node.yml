@@ -1,0 +1,46 @@
+name: Reusable Node quality
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        required: false
+        type: string
+        default: "22"
+      install-command:
+        required: false
+        type: string
+        default: "npm ci"
+      lint-command:
+        required: false
+        type: string
+        default: "npm run lint --if-present"
+      test-command:
+        required: false
+        type: string
+        default: "npm test --if-present"
+      build-command:
+        required: false
+        type: string
+        default: "npm run build --if-present"
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: \${{ inputs.node-version }}
+      - name: Install dependencies
+        run: \${{ inputs.install-command }}
+      - name: Lint
+        run: \${{ inputs.lint-command }}
+      - name: Test
+        run: \${{ inputs.test-command }}
+      - name: Build
+        run: \${{ inputs.build-command }}
