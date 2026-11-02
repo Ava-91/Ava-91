@@ -3,6 +3,11 @@ name: Reusable documentation links
 on:
   workflow_call:
     inputs:
+      exclude:
+        description: Regular expressions for known local or unavailable links
+        required: false
+        type: string
+        default: "--exclude localhost"
       paths:
         required: false
         type: string
@@ -20,5 +25,6 @@ jobs:
       - name: Check documentation links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --accept 200,206,429 ${{ inputs.paths }}
+          args: --verbose --no-progress --accept 200,206,429 ${{ inputs.exclude }} ${{ inputs.paths }}
           fail: true
+          failIfEmpty: false
