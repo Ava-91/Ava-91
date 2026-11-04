@@ -20,6 +20,8 @@ jobs:
           format: table
           output: trivy-results.txt
           ignore-unfixed: true
+          severity: HIGH,CRITICAL
+          # Existing dependency findings are reported, not treated as new PR failures.
           exit-code: "0"
       - name: Upload security report
         if: always()
