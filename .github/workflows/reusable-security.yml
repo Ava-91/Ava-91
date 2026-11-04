@@ -20,7 +20,8 @@ jobs:
           format: table
           output: trivy-results.txt
           ignore-unfixed: true
-          exit-code: "0"
+          severity: HIGH,CRITICAL
+          exit-code: "1"
       - name: Upload security report
         if: always()
         uses: actions/upload-artifact@v4
