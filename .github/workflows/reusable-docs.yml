@@ -4,7 +4,7 @@ on:
   workflow_call:
     inputs:
       exclude:
-        description: Regular expressions for known local or unavailable links
+        description: Extra lychee arguments for known local or unavailable links (e.g. "--exclude localhost --exclude example\\.com")
         required: false
         type: string
         default: "--exclude localhost"
