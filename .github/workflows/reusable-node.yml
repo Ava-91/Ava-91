@@ -19,10 +19,18 @@ on:
         required: false
         type: string
         default: "npm run lint --if-present"
+      typecheck-command:
+        required: false
+        type: string
+        default: "npm run typecheck --if-present"
       test-command:
         required: false
         type: string
         default: "npm test --if-present"
+      run-build:
+        required: false
+        type: boolean
+        default: true
       build-command:
         required: false
         type: string
@@ -43,17 +51,24 @@ jobs:
       - name: Install dependencies
         run: ${{ inputs.install-command }}
         working-directory: ${{ inputs.working-directory }}
-      - name: Lint
+      - name: Lint (when configured)
         run: ${{ inputs.lint-command }}
         working-directory: ${{ inputs.working-directory }}
-      - name: Test
+      - name: Typecheck
+        run: ${{ inputs.typecheck-command }}
+        working-directory: ${{ inputs.working-directory }}
+      - name: Tests (when configured)
         run: ${{ inputs.test-command }}
         working-directory: ${{ inputs.working-directory }}
-      - name: Build
+      - name: Production build
+        if: ${{ inputs.run-build }}
         run: ${{ inputs.build-command }}
         working-directory: ${{ inputs.working-directory }}
-      - name: Generate dependency audit report
-        if: ${{ hashFiles('**/package-lock.json') != '' }}
+      - name: Explain skipped build
+        if: ${{ !inputs.run-build }}
+        run: echo "Build skipped because this package requires external runtime services or content not available in CI."
+      - name: Generate dependency audit report (informational)
+        if: ${{ hashFiles(format('{0}/package-lock.json', inputs.working-directory)) != '' }}
         run: npm audit --json > npm-audit.json || true
         working-directory: ${{ inputs.working-directory }}
       - name: Upload dependency audit report
